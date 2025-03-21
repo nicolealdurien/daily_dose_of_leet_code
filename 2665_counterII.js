@@ -30,7 +30,7 @@ let createCounter = (init) => {
 
 // Solution beats the runtime of 95.60% of LC submissions.
 
-//Test
+// Test
 let counter = createCounter(0);  // init = 0
 let calls = ["increment", "reset", "increment", "increment", "reset", "decrement"]
 let result = []
