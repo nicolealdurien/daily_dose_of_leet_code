@@ -1,6 +1,8 @@
-// 2667. Create Hello World Function
-// Write a function createHelloWorld. 
-// It should return a new function that always returns "Hello World".
+/*
+ * 2667. Create Hello World Function
+ * Write a function createHelloWorld.
+ * It should return a new function that always returns "Hello World".
+ */
 
 let createHelloWorld = () => {
     
@@ -8,6 +10,8 @@ let createHelloWorld = () => {
         return "Hello World";
     };
 };
+
+// Solution beats the runtime of 95.19% of LC submissions.
 
 //Tests
 let result1 = createHelloWorld(5)
