@@ -24,7 +24,7 @@ let filter = (arr, fn) => {
     return filteredArray
 };
 
-// Solution beats the runtime of 95.09% of LC submissions.
+// Solution beats the runtime of 95.82% of LC submissions.
 
 // Tests
 let array = [-10, 0, 5, 25, 100]
