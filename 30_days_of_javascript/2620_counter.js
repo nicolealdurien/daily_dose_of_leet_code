@@ -17,8 +17,6 @@ let createCounter = (n) => {
     };
 };
 
-// Solution beats the runtime of 96.14% of LC submissions.
-
 //Tests
 let counter = createCounter(10);  // n = 10
 let result1 = ["call", "call", "call"].map(() => counter());

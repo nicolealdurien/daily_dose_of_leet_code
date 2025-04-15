@@ -66,7 +66,7 @@ const romanToInt = (s) => {
 
 // Tests
 console.log(romanToInt('III')); // Should print 3
-console.log(romanToInt('IV')); // Should print 3
+console.log(romanToInt('IV')); // Should print 4
 console.log(romanToInt('MM')); // Should print 2000
 console.log(romanToInt('MDCCLXXVI')); // Should print 1776
 console.log(romanToInt('MCMXCIX')); // Should print 1999
