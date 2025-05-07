@@ -1,0 +1,22 @@
+/* 1281. Subtract the Product and Sum of Digits of an Integer
+ * Difficulty - Easy
+ * Given an integer number n, 
+ * return the difference between the product of its digits and the sum of its digits.
+ */
+
+ let subtractProductAndSum = (n) => {
+    let product = 1;
+    let sumTotal = 0;
+    let num = n.toString().split('')
+    for (let i = 0; i < num.length; i++) {
+        product *= Number(num[i])
+        sumTotal += Number(num[i])
+    }
+    
+    return product - sumTotal
+};
+
+// Tests
+console.log(subtractProductAndSum(11)) // Should be -1
+console.log(subtractProductAndSum(50)) // Should be -5
+console.log(subtractProductAndSum(42)) // Should be 2
