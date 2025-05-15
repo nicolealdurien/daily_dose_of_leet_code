@@ -1,3 +1,3 @@
 # daily_dose_of_leet_code
 
-A place to store solutions and self-created tests for basic LeetCode questions. Problems completed so far: 58
+A place to store solutions and self-created tests for basic LeetCode questions. Problems completed so far: 59
